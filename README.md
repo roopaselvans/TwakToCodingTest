@@ -4,7 +4,7 @@ Implementation Details:
 2. BONUS 2 is handled. -> Exponential backoff must be used when trying to reload the data. Only for Get User list Use case handled
 
 
-Technology/Componentsd Used:
+Technology/Components Used:
 ****************************
    > Jetpack Compose (ConstraintLayout used in used details), Navigation
    > Compose Paging library with Remote and Local DB cache.
@@ -16,6 +16,7 @@ Technology/Componentsd Used:
 
 
 - All the use cases mentioned in the required is been implemented except BONUS 3
+- Used ConstraintLayout in UserDetail Screen, used Compose Paging and other things in User List screen.
 - On NO Internet have provided toast and indicator in last list item with retry option.
 - Written unit test and Android Unit test for model and classes which has more functionalities, for simple classes left these unit test. Used Mockito, Mockk for mocking in unit test cases.
 
