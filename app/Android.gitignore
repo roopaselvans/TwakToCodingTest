@@ -1,0 +1,16 @@
+# Gradle files
+.gradle/
+build
+bin/
+gen/
+vcs.xml
+.idea/
+
+# Local configuration file (sdk path, etc)
+local.properties
+*.log
+
+*.iml
+.idea/
+misc.xml
+

@@ -1,0 +1,21 @@
+<resources>
+    <string name="app_name">DevTest2</string>
+    <string name="no_network_toast">No internet connection, please check your internet connection</string>
+    <string name="error_in_loading">Error: N/W request limit has reached.</string>
+    <string name="error_in_loading_details">Failed to load User details. Network limit has reached.</string>
+    <string name="followers">followers:</string>
+    <string name="following">following:</string>
+    <string name="name">name:</string>
+    <string name="company">company:</string>
+    <string name="blog">blog:</string>
+    <string name="notes">Notes</string>
+    <string name="save">Save</string>
+    <string name="notes_updated">Notes updated</string>
+    <string name="retry_again">Retry again</string>
+    <string name="user_list_title">User List</string>
+    <string name="user_detail_title">User Detail</string>
+
+
+    <string name="title_activity_user_list_main">User List</string>
+
+</resources>

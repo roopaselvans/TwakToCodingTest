@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/nav_graph"
+    app:startDestination="@id/UserList">
+
+    <fragment
+        android:id="@+id/UserList"
+        android:name="com.roopasn.tawkto.presentation.user_list.UserListFragment"
+        android:label="@string/user_list_title">
+
+        <action
+            android:id="@+id/action_UserList_to_UserDetail"
+            app:destination="@id/UserDetail" />
+    </fragment>
+    <fragment
+        android:id="@+id/UserDetail"
+        android:name="com.roopasn.tawkto.presentation.user_detail.UserDetailFragment"
+        android:label="@string/user_detail_title">
+
+        <argument android:name="userId" app:argType="integer" />
+
+        <argument android:name="userLogin" app:argType="string" />
+
+        <action
+            android:id="@+id/action_UserDetail_to_UserList"
+            app:destination="@id/UserList" />
+    </fragment>
+</navigation>
